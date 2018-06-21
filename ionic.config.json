@@ -1,0 +1,8 @@
+{
+  "name": "radioWRXBeta",
+  "app_id": "f0c571f4",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
