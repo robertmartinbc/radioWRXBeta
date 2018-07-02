@@ -1,8 +1,8 @@
 import { Component, ViewChild } from '@angular/core';
 import { NavController, Slides } from 'ionic-angular';
 
-import { LoginPage } from '../login/login';
-import { SignupPage } from '../signup/signup';
+import { FirebaseLoginPage } from '../firebase-integration/firebase-login/firebase-login';
+import { FirebaseSignupPage } from '../firebase-integration/firebase-signup/firebase-signup';
 
 @Component({
   selector: 'walkthrough-page',
@@ -33,10 +33,10 @@ export class WalkthroughPage {
   }
 
   goToLogin() {
-    this.nav.push(LoginPage);
+    this.nav.push(FirebaseLoginPage);
   }
 
   goToSignup() {
-    this.nav.push(SignupPage);
+    this.nav.push(FirebaseSignupPage);
   }
 }
